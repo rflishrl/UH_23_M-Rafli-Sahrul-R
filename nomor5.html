@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomor 5</title>
+</head>
+<body>
+    <script>
+    var jawab = prompt("Selamat datang! Silahkan pilih menu makanan");
+        var makan = "";
+        
+        switch(jawab){
+            case "bakso":
+                makan = "Harga makanan 10000";
+                break;
+            case "mie ayam":
+                makan = "Harga makanan 8000";
+                break;
+            case "rawon":
+                makan = "Harga makanan 12000";
+                break;
+            case "nasi pecel":
+                makan = "Harga makanan 7000"
+                break;
+            case "kupang":
+                makan = "Harga makanan 13000";
+                break;
+            default:
+                document.write("<p>Opps! anda salah pilih</p>");
+        }
+
+        if(makan === ""){
+            document.write("<p>tidak ada</p>");
+        } else {
+            document.write(makan);
+        }
+    </script>
+</body>
+</html>
