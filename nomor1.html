@@ -8,8 +8,10 @@
 </head>
 <body>
     <script>
-        for (let ganjil = 1; ganjil < 10; ganjil++) {
-            document.writeln("<p>Bilangan ganjil ke- " + ganjil + "</p>");
+        let limit = prompt("Masukkan batas angka : ");
+
+        for(let i = 1; i <= limit; i+=2) {
+            document.writeln(i + "<p>");
         }
     </script>
 </body>
